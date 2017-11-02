@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web Dictionary</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+<h1>WEB DICTIONARY</h1>
+<p>Welcome! I hope you have some fun!</p>
+<br>
+
+<p>Look up the definition of a word(eg. ajax, html, bar, php, javascript or css)</p>
+
+
+
+ 
+<form  oninput="result.value=sword.value" method="POST" id="searchword" >
+Word: <input type="text" name="sword" id="word">
+</form>
+
+
+<button onclick="myFunction()" type="submit" form="searchword" value="Submit">Search</button>
+
+<script>
+function myFunction() {
+    alert(document.getElementById("word").value);
+}
+</script>
+
+<h2>Result</h2>
+<div id="searchword"></div>
+
+</body>
+
+</html>
+
+</body>
+
+</html>
